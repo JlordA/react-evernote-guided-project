@@ -92,6 +92,7 @@ div.sidebar ul {
   padding: 0;
   display: flex;
   flex-direction: column;
+
 }
 
 div.sidebar ul li {
@@ -134,9 +135,10 @@ div.sidebar ul li:hover {
   border: 2px dashed grey;
 }
 
+
 .sidebar {
   width:25%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .detail {
